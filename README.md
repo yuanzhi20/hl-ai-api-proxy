@@ -16,10 +16,7 @@ curl -X POST http://8.209.254.65/v1/chat/completions \
 
 ## 价格
 
-| 方案 | 价格 |
-|------|------|
-| 按量付费 | ¥0.01 / 1K tokens |
-| 包月 | ¥99 / 月 |
+按量付费：**¥0.01 / 1K tokens**（≈ 0.0014 USDT）
 
 ## API 参考
 
@@ -50,4 +47,4 @@ USDT TRC-20: `TWdth6bNRRZqX7NvYnnvWjqM7zPNkYTndg`
 
 ## 技术
 
-一个轻量级 Python 代理，转发到 DeepSeek API。源码 80 行。
+一个轻量级 Python 代理，转发到 DeepSeek API。
