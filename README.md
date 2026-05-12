@@ -2,6 +2,15 @@
 
 国内直连 DeepSeek V4 API，无需翻墙。OpenAI 兼容接口。
 
+## 价格
+
+| 模型 | 价格 |
+|------|------|
+| deepseek-chat | ¥0.01 / 1K tokens ≈ 0.0014 USDT |
+| deepseek-reasoner | ¥0.03 / 1K tokens ≈ 0.0042 USDT |
+
+纯按量，用多少扣多少。
+
 ## 快速开始
 
 ```bash
@@ -14,15 +23,12 @@ curl -X POST http://8.209.254.65/v1/chat/completions \
   }'
 ```
 
-## 价格
-
-按量付费：**¥0.01 / 1K tokens**（≈ 0.0014 USDT）
-
 ## API 参考
 
 - **Base URL**: `http://8.209.254.65/v1`
 - **模型**: `deepseek-chat`, `deepseek-reasoner`
 - **认证**: Bearer Token
+- **Demo Key**: `hl-proxy-token-demo` (¥1体验金)
 
 ### Python
 
@@ -47,4 +53,4 @@ USDT TRC-20: `TWdth6bNRRZqX7NvYnnvWjqM7zPNkYTndg`
 
 ## 技术
 
-一个轻量级 Python 代理，转发到 DeepSeek API。
+轻量级 Python 代理，转发到 DeepSeek API。
